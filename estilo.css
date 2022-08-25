@@ -1,5 +1,5 @@
 body {
-  background: rgb(175, 175, 175);
+  background: rgb(255, 255, 255);
 }
 h1 {
   text-align: center;
@@ -34,7 +34,7 @@ li {
 }
 li a {
   display: block;
-  color: rgb(255, 0, 0);
+  color: rgb(240, 203, 124);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,8 +45,8 @@ li a:hover {
 }
 .boxImage {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background: rgb(255, 255, 255);
   top: 45px;
   left: 0;
@@ -59,15 +59,15 @@ li a:hover {
   justify-content:center;
 }
 #mar {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 .rodape {
   position: absolute;
   width: 100%;
   height: 50px;
   color: white;
-  background: rgb(142, 1, 1);
+  background: rgb(237, 197, 110);
   left: 0;
   bottom: 0;
   display: flex;
@@ -82,7 +82,15 @@ li a:hover {
   height: 200px;
 }
 
+p {
+  font-size: x-large;
+}
 
+.paginaUm {
+  position: absolute;
+  top: 45px;
+  left: 300px;
+}
 
 
 
