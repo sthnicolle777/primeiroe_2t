@@ -69,7 +69,7 @@ li a:hover {
   color: white;
   background: rgb(237, 197, 110);
   left: 0;
-  bottom: 0;
+  bottom: -160px;
   display: flex;
   justify-content: center;
 }
@@ -92,6 +92,15 @@ p {
   left: 300px;
 }
 
+p2 {
+  font-size: xx-large;
+}
+
+.paginaDois {
+  position: absolute;
+  top: 45px;
+  left: 300px;
+}
 
 
 
